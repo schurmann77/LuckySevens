@@ -11,17 +11,16 @@
 <body>
     <div id ="banner" class="col-lg-12">
         <h1 class="jumbotron bg-success">Lucky Sevens</h1>
-        
+        <div id="button" class="container">
             <h3>Starting Bet: </h3><input class="textbox" type="text" id="startingMoney" name="bet" value="$0.00"><br>
-            <div id="button" class="container-fluid">
-                <button onclick="luckySevens()" id="play" class="btn badge-pill" type="button">Play</button>
-            </div><!-- closes button div-->
+            <button onclick="luckySevens()" id="play" class="btn badge-pill" type="button">Play</button>
+        </div><!-- closes button div-->
             
     </div><!-- closes banner div-->
     <div id="line" class="container">
             <hr />
     </div><!-- closes the line div-->
-    <div class="container col-lg-4 col-md-4 col-sm-12" style="display: block;" id="resultTable">
+    <div class="container col-lg-3 col-md-5 col-sm-6 col-xs-6" style="display: block;" id="resultTable">
         
         <table id="TableR" class="table table-hover table-dark" style="display: none;">
                 

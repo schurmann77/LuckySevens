@@ -8,17 +8,20 @@
 }
 h3 {
     text-align: justify;
-    margin-left: 30%;
+    margin-left: 34%;
     float: left;
     margin-right: 2%;
+    
 }
 body .btn {
     background-color: #04961f;
     color: #eff7fc;
     margin-top: 1%;
+    margin-right: 0 auto;
     box-shadow: 2px 1px 4px #444;
     font-weight: bold;
     text-shadow: 2px 1px 4px #444;
+    
 }
 body .btn:hover {
     color: #eff7fc;
